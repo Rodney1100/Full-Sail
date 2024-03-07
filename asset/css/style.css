@@ -13,6 +13,9 @@ header {
   background: transparent url(../image/logo.svg) 0% 0% no-repeat padding-box;
   opacity: 1;
 }
+header .info-mobile img {
+display: none;
+}
 /* header logo style end */
 
 /* hero img */
@@ -491,6 +494,7 @@ footer .footer-text {
     left: 19px;
     width: 8px;
     height: 20px;
+    display: block;
   }
 
   .hero {
