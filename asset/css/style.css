@@ -30,6 +30,7 @@ display: none;
   opacity: 1;
 }
 
+/* headline style */
 .headline h1 {
   position: absolute;
   top: 354px;
@@ -56,7 +57,9 @@ display: none;
   color: #fdb913;
   opacity: 1;
 }
+/* headline style ends */
 
+/* form style starts */
 .form {
   position: absolute;
   top: 106px;
@@ -111,7 +114,8 @@ display: none;
   opacity: 1;
   border-bottom: 3px #fdb913 solid;
 }
-
+/* this is the start of input fields */
+/* drop down for program */
 .form .program-dropdown {
   position: absolute;
   top: 192px;
@@ -162,8 +166,9 @@ display: none;
   border-top: none;
   border-right: none;
 }
+/* drop down for program ends */
 
-/* special */
+/* the drop down arrow cover  */
 select {
   border: unset;
   width: 14px;
@@ -176,7 +181,7 @@ select {
   background-position: right 0.7rem top 50%;
   background-size: 2px strong auto;
 }
-
+/* name drop down style starts */
 .form .name-drop label {
   position: absolute;
   top: 3px;
@@ -234,7 +239,8 @@ select {
   border-top: none;
   border-right: none;
 }
-
+/* Name drop down style ends */
+/* checkbox style start */
 .form .checkbox {
   position: absolute;
   top: 325px;
@@ -301,7 +307,8 @@ select {
   position: absolute;
   top: 413px;
 }
-
+/* checkbox style ends */
+/* button style start */
 .form button {
   position: absolute;
   top: 484px;
@@ -320,6 +327,10 @@ select {
 
 a:hover button {
 }
+/* button style ends */
+
+/* middle of the page style start  */
+/* text after header style start */
 section .middle .first-text {
   position: absolute;
   top: 555px;
@@ -395,7 +406,9 @@ section .middle a {
   color: #cc4b00;
   opacity: 1;
 }
+/* text after header style ends */
 
+/* footer style start */
 footer {
   position: absolute;
   top: 1042px;
@@ -443,7 +456,8 @@ footer .footer-text {
   color: #ffffff;
   opacity: 1;
 }
-
+/* footer style ends */
+/* trade mark style start */
 .trademark {
   position: absolute;
   top: 1440px;
@@ -466,8 +480,11 @@ footer .footer-text {
   color: #d6d6d6;
   opacity: 1;
 }
+/* trade mark style ends */
 
+/* media quires start */
 @media screen and (max-width: 390px) {
+  /* header style for mobile  start */
   header {
     position: absolute;
     top: 10px;
@@ -496,8 +513,9 @@ footer .footer-text {
     height: 20px;
     display: block;
   }
-
-  .hero {
+/* header style  for mobile ends */
+/* hero style start */
+.hero {
     position: absolute;
     top: 45px;
     left: 0px;
@@ -507,7 +525,9 @@ footer .footer-text {
       padding-box;
     opacity: 1;
   }
+/* hero style for mobile  ends */
 
+/* headline style for mobile  start */
   .headline h1 {
     position: absolute;
     top: 13px;
@@ -544,7 +564,9 @@ footer .footer-text {
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 0.6;
   }
+/* headline style for mobile  ends */
 
+/* middle of page text style  for mobile start */
   section .middle .first-text {
     position: absolute;
     top: 308px;
@@ -627,7 +649,8 @@ footer .footer-text {
     color: #cc4b00;
     opacity: 1;
   }
-
+/* middle of page  for mobile style ends */
+/* hero style  for mobile start */
   .hero .mobile-line {
     position: absolute;
     top: 1036px;
@@ -637,7 +660,9 @@ footer .footer-text {
     border: 1px solid #d6d6d6;
     opacity: 1;
   }
+/* hero style ends */
 
+/* form style for mobile start */
   .form {
     position: absolute;
     top: 1080px;
@@ -684,6 +709,7 @@ footer .footer-text {
     opacity: 1;
     border-bottom: 3px #fdb913 solid;
   }
+/* program dropdown styles for mobil starts */
 
   .form .program-dropdown {
     position: absolute;
@@ -706,6 +732,8 @@ footer .footer-text {
     color: #505050;
     opacity: 1;
   }
+/* program dropdown styles for mobil ends */
+/* name dropdown styles for mobil starts */
 
   .form .name-drop {
     position: absolute;
@@ -727,6 +755,9 @@ footer .footer-text {
     color: #505050;
     opacity: 1;
   }
+/* name dropdown styles for mobil ends */
+/* checkbox styles for mobil starts */
+
   .form .checkbox {
     position: absolute;
     top: 301px;
@@ -806,8 +837,11 @@ footer .footer-text {
     color: #ffffff;
     opacity: 1;
   }
+/* checkbox styles for mobil starts */
 
-  footer {
+/* form style for mobile ends */
+/* footer styles for mobil starts */
+footer {
     position: absolute;
     top: 1720px;
     left: 0px;
@@ -861,18 +895,10 @@ footer .footer-text {
     color: #ffffff;
     opacity: 1;
   }
+/* footer styles for mobil ends */
 
-  footer .footer-text p {
-    font-size: 12px;
-    padding-bottom: 25px;
-  }
-  footer .footer-text p a {
-    color: white;
-  }
+/* trademark styles for mobil starts */
 
-  footer .footer-text p .odd-period {
-    line-height: 50%;
-  }
   .trademark {
     position: absolute;
     top: 2320px;
@@ -893,4 +919,6 @@ footer .footer-text {
     color: #d6d6d6;
     opacity: 1;
   }
+/* trademark styles for mobil ends */
+
 }
