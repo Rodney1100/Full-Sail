@@ -315,8 +315,7 @@ select {
   letter-spacing: 0px;
 }
 
-a:hover button{
-
+a:hover button {
 }
 section .middle .first-text {
   position: absolute;
@@ -425,8 +424,8 @@ footer .dream {
     0% 0% no-repeat padding-box;
   opacity: 1;
 }
-footer .dream p {
-  opacity: 0;
+footer .dream1 p {
+  display: none;
 }
 
 footer .footer-text {
@@ -475,6 +474,23 @@ footer .footer-text {
     background: transparent url(../image/Logo\ -\ Full\ Color\ -\ Mobile.svg) 0%
       0% no-repeat padding-box;
     opacity: 1;
+  }
+  header .info-mobile {
+    position: absolute;
+    top: -10px;
+    left: 329px;
+    width: 46px;
+    height: 46px;
+    background: var(---fdb913) 0% 0% no-repeat padding-box;
+    background: #fdb913 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  header .info-mobile img {
+    position: absolute;
+    top: 13px;
+    left: 19px;
+    width: 8px;
+    height: 20px;
   }
 
   .hero {
@@ -809,7 +825,7 @@ footer .footer-text {
   }
 
   footer .dream {
-    opacity: 0;
+    display: none;
   }
 
   footer .dream1 p {
@@ -824,10 +840,12 @@ footer .footer-text {
     opacity: 1;
     text-align: center;
     color: #d6d6d6;
+    display: block;
   }
 
   footer .footer-text {
     position: absolute;
+    font: Square Serif, Light;
     top: 250px;
     left: 15px;
     width: 360px;
@@ -839,10 +857,15 @@ footer .footer-text {
     color: #ffffff;
     opacity: 1;
   }
+
   footer .footer-text p {
     font-size: 12px;
     padding-bottom: 25px;
   }
+  footer .footer-text p a {
+    color: white;
+  }
+
   footer .footer-text p .odd-period {
     line-height: 50%;
   }
@@ -854,16 +877,16 @@ footer .footer-text {
     height: 70px;
     background: #454545 0% 0% no-repeat padding-box;
     opacity: 1;
-}
-.trademark p{
-  top: 28px;
-  left: 89px;
-  width: 212px;
-  height: 15px;
-  text-align: left;
-  font: normal normal normal 11px/15px Open Sans;
-  letter-spacing: 0px;
-  color: #D6D6D6;
-  opacity: 1;
-}
+  }
+  .trademark p {
+    top: 28px;
+    left: 89px;
+    width: 212px;
+    height: 15px;
+    text-align: left;
+    font: normal normal normal 11px/15px Open Sans;
+    letter-spacing: 0px;
+    color: #d6d6d6;
+    opacity: 1;
+  }
 }
